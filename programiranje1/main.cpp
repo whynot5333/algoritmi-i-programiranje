@@ -4,26 +4,15 @@ using namespace std;
 
 int main()
 {
-    cout << "Unesi dva cijela broja" << endl;
-    int broj1;
-    int broj2;
-    int rezultat;
-    printf("Molimo unesi prvi broj:");
-    cin>>broj1;
-    printf("Hvala,molim unesi drugi broj:");
-    cin>>broj2;
-    rezultat=broj1+broj2;
-    printf("%i + %i = %i, ", broj1,broj2,rezultat);
-    rezultat=broj1-broj2;
-    printf("%i - %i = %i, ", broj1,broj2,rezultat);
-    rezultat=broj1*broj2;
-    printf("%i * %i = %i, ", broj1,broj2,rezultat);
-    rezultat=broj1/broj2;
-    printf("%i / %i = %i, ", broj1,broj2,rezultat);
+   char slovo1;
+   char slovo2;
+   int rezultat;
 
+   printf("unesi prvo slovo: ");
+   cin>>slovo1;
 
-
-
-
-    return 0;
+   printf("unesi drugo slovo: ");
+   cin>>slovo2;
+   rezultat=slovo1-slovo2;
+   printf("Razmak izmedju brojeva %i", rezultat);
 }
